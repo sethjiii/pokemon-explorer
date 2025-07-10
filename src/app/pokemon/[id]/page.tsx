@@ -61,9 +61,11 @@ export default async function PokemonPage({
         <div className="relative z-10 p-8">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center border-4 border-white shadow-lg">
-                <div className="w-6 h-6 bg-white rounded-full"></div>
-              </div>
+              <img
+                src="/pkd.png"
+                alt="Pokédex"
+                style={{ width: '64px', height: '64px' }}
+              />
               <h1 className="text-5xl font-bold capitalize bg-gradient-to-r from-yellow-400 to-red-400 bg-clip-text text-transparent">
                 {pokemon.name}
               </h1>

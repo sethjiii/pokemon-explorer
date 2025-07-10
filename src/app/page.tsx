@@ -46,9 +46,12 @@ export default function Home() {
         <div className="relative z-10 py-16 px-6">
           <div className="max-w-6xl mx-auto text-center">
             <div className="flex justify-center items-center gap-4 mb-8">
-              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center border-4 border-white shadow-2xl">
-                <div className="w-8 h-8 bg-white rounded-full"></div>
-              </div>
+              <img
+                src="/pkd.png"
+                alt="Pokédex"
+                style={{ width: '64px', height: '64px' }}
+              />
+
               <h1 className="text-6xl font-bold bg-gradient-to-r from-yellow-400 via-red-400 to-yellow-400 bg-clip-text text-transparent">
                 Pokédex
               </h1>
