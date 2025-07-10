@@ -3,6 +3,8 @@
 A responsive and visually appealing Pokémon Explorer web app built using **Next.js** and **TailwindCSS**. This project fetches data from the [PokeAPI](https://pokeapi.co/) and allows users to search, browse, and view detailed information about any Pokémon.
 
 ---
+###Deployed Link
+https://pokemon-explorer-lake.vercel.app/
 
 ## 📌 Features
 
